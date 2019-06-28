@@ -1,0 +1,153 @@
+/* Homepage */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0c0d0e;
+    color: white;
+}
+
+.carousel-header {
+    font-weight: bold;
+}
+
+.homepage-col4, .gallery-col4, .pricing-col4 {
+   border: 2px solid;
+}
+
+.homepage-col4, .homepage-col8 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.special-occassions {
+    margin-top: 23px;
+}
+
+.header2 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.content-text-bold {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.content-text {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 1024px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1281px) {
+  .sidebr,
+  .gallery-col4 {
+      border: none;
+  } 
+  }
+
+.carousel-caption {
+    text-shadow: 3px 3px 2px black;
+}
+
+.row {
+    padding-right: 15px;
+}
+
+.phone-number {
+    display: block;
+    text-align: center;
+}
+
+a {
+    color: #72D3D4;
+}
+
+a:hover {
+    color: #A1A1D4;
+}
+
+.header-link {
+    color: black;
+}
+
+.header-link:hover {
+    color: #A1A1D4;
+}
+
+.logo {
+    font-size: 3em;
+    color: #72D3D4;
+    margin-right: 15px;
+}
+
+.henfield-ladies-branch-homepage, .henfield-mens-branch-homepage {
+    margin: 15px 0;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1200px) { 
+    .homepage-col8 {
+        margin-left: 1rem;
+    }
+}
+
+/* Gallery */
+
+h4 {
+    font-weight: bold;
+}
+
+#branches {
+    margin: 60px auto;
+}
+.henfield-mens-branch, .henfield-ladies-branch {
+    margin-top: 20px;
+}
+
+.gallery-image {
+    margin: 5px;
+}
+
+.pricing-images, .owner-photo-gallery {
+    width: 100%;
+    margin: 5px;
+}
+
+.gallery-image {
+    transition: all 1s;
+}
+
+.gallery-image:hover{
+    transform: scale(1.1);
+}
+
+#owner-photo {
+    display: block;
+    margin: 50px auto;
+}
+
+
+
+/* Pricing */
+
+.pricing-page ul {
+    padding-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.henfield-mens-branch-pricing, .henfield-ladies-branch-pricing {
+    margin: 20px auto;
+}
+
+#weekdays {
+    margin-left: 5px;
+}
