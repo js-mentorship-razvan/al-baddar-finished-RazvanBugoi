@@ -166,8 +166,14 @@ li {
     margin-left: 5px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
     .pricing-col4 {
         display: none;
+    }
+}
+
+@media (max-width: 426px) {
+    .pricing-header {
+        text-align: center;
     }
 }
