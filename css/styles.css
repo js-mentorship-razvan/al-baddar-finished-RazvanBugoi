@@ -128,8 +128,8 @@ h4 {
 }
 
 .pricing-images, .owner-photo-gallery {
-    width: 100%;
-    margin: 5px;
+    width: 90%;
+    margin: 5px auto;
 }
 
 .gallery-image {
@@ -146,6 +146,11 @@ h4 {
     margin: 50px auto;
 }
 
+@media (max-width: 426px) {
+    .owner-photo-gallery {
+        display: none;
+    }
+}
 
 
 /* Pricing */
