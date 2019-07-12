@@ -238,6 +238,12 @@ li {
     }
 }
 
+@media (max-width: 768px) {
+    .pricing-page .products-pricing-page {
+        display: none;
+    }
+}
+
 .henfield-mens-branch-pricing, .henfield-ladies-branch-pricing {
     margin: 20px auto;
 }
