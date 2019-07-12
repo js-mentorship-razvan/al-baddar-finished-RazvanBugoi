@@ -112,6 +112,10 @@ a:hover {
 
 /* Gallery */
 
+.gallery-page .gallery-container {
+    padding: 0!important;
+}
+
 h4 {
     font-weight: bold;
 }
