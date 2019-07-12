@@ -72,6 +72,12 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .index-page .index-col4 {
+        border: none;
+    }
+}
+
 @media (max-width: 400px) {
     .gallery-col8 {
         display: none;
