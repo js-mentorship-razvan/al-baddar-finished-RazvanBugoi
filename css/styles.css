@@ -14,10 +14,6 @@ body {
     font-weight: bold;
 }
 
-/* .homepage-col4, .gallery-col4, .pricing-col4 {
-   border: 2px solid;
-} */
-
 .homepage-col4, .homepage-col8 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -53,12 +49,6 @@ body {
     margin-top: 20px;
 }
 
-/* @media (max-width: 1281px) {
-  .sidebr,
-  .gallery-col4 {
-      border: none;
-  } 
-} */
 @media (max-width: 1024px) {
     .index-page .index-page-row {
         justify-content: center;
@@ -146,6 +136,11 @@ h4 {
     font-weight: bold;
 }
 
+@media (max-width: 425px) {
+    .gallery-page .gallery-h2 {
+    text-align: center!important;
+}
+}
 .gallery-page .nearest-branch-gallery-page {
     border: 2px solid;
 }
@@ -166,6 +161,12 @@ h4 {
 @media (max-width: 768px) {
     .gallery-page .nearest-branch-gallery-page-owner {
         border: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .gallery-page .gallery-container {
+        text-align: center;
     }
 }
 
@@ -218,6 +219,23 @@ h4 {
 
 li {
     list-style: none;
+}
+
+.pricing-page .nearest-branch-pricing-page{
+    border: 2px solid;
+}
+
+.pricing-page .products-pricing-page {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+@media (max-width: 768px) {
+    .pricing-page .nearest-branch-pricing-page,
+    .pricing-page .products-pricing-page {
+        border: none;
+    }
 }
 
 .henfield-mens-branch-pricing, .henfield-ladies-branch-pricing {
